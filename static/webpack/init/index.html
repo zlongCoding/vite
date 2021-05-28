@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script src="./exs.js"></script>
+    <script>
+        class a {
+            aa(){
+                console.log("111")
+            }
+        }
+        class b extends a{
+            constructor(){
+
+            }
+            bb(){
+                this.aa()
+            }
+        }
+        const bb = new b()
+        bb.bb()
+    </script>
+</body>
+</html>
